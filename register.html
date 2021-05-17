@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <meta name="description" content="animals web site" />
+    <link rel="apple-touch-icon" href="images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andlos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body class="register regi_login">
+    <div class="container my-5 ">
+        
+
+
+         <form action="/action_page.php">
+            <div class="card-title mt-3 text-center"> 
+                <img src="images/logo.png" alt="site-logo">
+            </div>
+            <h4 class="text-center my-4">حساب جديد</h4>
+
+            <input name="" class="form-control error" placeholder="الاسم بالكامل" type="text" required>
+            <div class="alert alert-danger" role="alert">هذا الحقل مطلوب !!</div>
+            <input name="" class="form-control" placeholder="اسم المستخدم" type="text"required>
+            <input name="" class="form-control" placeholder="رقم التليفون" type="text" required>
+            <input type="text" class="form-control"  placeholder="ادخل الايميل" name="email" id="email" required>
+        
+            <select  required>
+              <option selected> اختار الدولة</option>
+              <option value="1">مصر</option>
+              <option value="2">السعوديه</option>
+              <option value="3">لبنان</option>
+            </select>
+            <input type="password" class="form-control"  placeholder="ادخل كلمه المرور" name="psw" id="psw" required>
+        
+            
+            <input type="password" class="form-control"  placeholder="تاكيد كلمه المرور" name="psw-repeat" id="psw-repeat" required>
+            <select class=""  required>
+                  <option selected="">نوع الحساب</option>
+                  <option>افراد</option>
+                  <option>شركات</option>
+            </select>
+            <button type="submit" class="registerbtn my-3">تسجيل</button>
+          
+            <div class="py-2 signin">
+              <p>لديك حساب بالفعل ؟<a href="login.html"> تسجيل الدخول</a>.</p>
+            </div>
+          </form>
+
+          <div class="footer_sign">
+            <ul class="list-unstyled d-flex justify-content-center mt-5">
+                <li class="px-4"><a href="policy.html">Usage Policy</a></li>
+                <li class="px-4"><a href="about.html">About Us</a></li>
+                <li class="px-4"><a href="contact.html">Contact Us</a></li>
+            </ul>
+         </div>
+          
+    </div> 
+    <!--container end.//-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
